@@ -55,10 +55,13 @@ html {
 
 .navbar {
     width: 100%;
-    height: 80px;
-    backdrop-filter: blur(90px);
+    height: 50px;
+    /* backdrop-filter: blur(90px); */
+    /* backdrop-filter: black  ; */
+    background: black;
     position: fixed;
     z-index: 1;
+
 
 }
 
@@ -72,8 +75,7 @@ html {
 }
 
 .navbar-h2 {
-
-    padding-bottom: 20px;
+    padding-left: 50px;
 }
 
 .padding {
@@ -134,7 +136,8 @@ html {
 }
 
 .color {
-    color: #924c06;
+    /* color: #924c06; */
+    color: white;
     font-weight: bold;
 }
 
@@ -171,12 +174,12 @@ a:hover {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-right: 50px;
 }
 
 .nav ul a {
-    color: #924c06;
+    color: white;
     font-weight: bold;
     font-size: 18px;
 
@@ -197,8 +200,6 @@ a:hover {
 }
 
 .content-bg {
-    /* background-image: url("../images/pexels-evie-shaffer-1259279-29059123.jpg"); */
-    /* background-image: url("../images/pexels-mariana-kurnyk-844465-1756064.jpg"); */
     background-image: url("../images/pexels-james-collington-2147687246-30153444.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,6 +462,15 @@ p {
 .container-img img {
     width: 265px;
     height: fit-content;
+    transition: transform 0.5s ease;
+
+}
+
+.container-img:hover {
+    transform: scale(1.06);
+    background: rgba(0, 0, 0, 0.012);
+    transform: scale(1.05);
+    /* filter: brightness(100%) contrast(120%); */
 }
 
 .container h3 {
@@ -620,6 +630,15 @@ a {
 }
 
 .aboutPage button {
+    background: green;
+    width: 150px;
+    color: white;
+    margin-left: 120px;
+    font-weight: bold;
+    height:35px;
+    border: 0;
+    margin-top: 60px;
+    border-radius: 20px;
     margin-left: 33%;
 }
 
@@ -973,7 +992,7 @@ h2 {
 }
 
 footer {
-    background: #924c06;
+    background: black;
     /* background-color: #8B4513; */
     color: #ddd;
     padding: 40px 20px;
@@ -1030,4 +1049,3 @@ footer {
     font-size: 13px;
     color: white;
 }
-
