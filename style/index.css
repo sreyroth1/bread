@@ -1154,6 +1154,10 @@ footer {
     .content-hover {
         margin-bottom: 30%;
     }
+     .container {
+        /* width: 100%; */
+        margin-right: 20%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1170,16 +1174,14 @@ footer {
     .content-bg {
         background-image: url("../images/pexels-james-collington-2147687246-30153444.jpg");
         background-repeat: no-repeat;
-        background-size: contain;
         width: 100%;
     }
 
     .main-content:before {
-        height: 306px;
+        height: 680px;
     }
-
     .content-hover {
-        margin-right: 30%;
+        margin-bottom: 40%;
     }
 
     .best-seller {
