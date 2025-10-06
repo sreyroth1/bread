@@ -291,6 +291,7 @@ a:hover {
 
 .best-seller-text {
     text-align: center;
+    padding-top: 30px;
 
 }
 
@@ -1155,8 +1156,15 @@ footer {
         margin-bottom: 30%;
     }
      .container {
-        /* width: 100%; */
-        margin-right: 20%;
+        display: grid;
+        padding: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .container01{
+        padding: 50px;
+    }
+    .container02{
+        padding: 50px;
     }
 }
 
